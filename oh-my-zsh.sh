@@ -1,3 +1,7 @@
+########################################################################
+# set my default theme
+export ZSH_THEME=wowk
+
 # Protect against non-zsh execution of Oh My Zsh (use POSIX syntax here)
 [ -n "$ZSH_VERSION" ] || {
   # ANSI formatting function (\033[<code>m)
