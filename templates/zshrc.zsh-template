@@ -106,3 +106,10 @@ export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 export PATH=$PATH:$HOME/.local/bin
+
+export JAVA_HOME=/opt/jdk/jdk-19.0.1
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=${JAVA_HOME}/lib:$${JRE_HOME}/lib:${CLASSPATH}
+export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+export PATH=$PATH:${JAVA_PATH}
+
