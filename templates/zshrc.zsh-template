@@ -113,3 +113,7 @@ export CLASSPATH=${JAVA_HOME}/lib:$${JRE_HOME}/lib:${CLASSPATH}
 export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
 export PATH=$PATH:${JAVA_PATH}
 
+export CROSS_COMPILER_PATH=/opt/toolchains/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu/bin/
+export PATH=$PATH:$CROSS_COMPILER_PATH
+
+export PATH=$PATH:$HOME/.local/bin/
